@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+
+<!-- এগুলো সব মাউসের ইভেন্ট  -->
+
+<button onclick="a()">Click Me</button><br><br>
+<button ondblclick="b()">Click Me</button><br><br>
+<button oncontextmenu="c()">Click Me</button><br><br>
+<button onmouseenter="d()">Click Me</button><br><br>
+<button onmouseout="e()">Click Me</button><br><br>
+<button onmousedown="f()">Click Me</button><br><br>
+<button onmouseup="g()">Click Me</button><br><br>
+
+
+<!-- কি বোর্ড events-->
+
+<input onchange="h()"><br><br>
+<input onkeydown="i()"><br><br>
+<input onkeyup="j()">
+
+
+<script>
+//----------mouse events---------
+
+        function a(){
+            alert("Hello onclick")
+        }
+
+        function b(){
+            alert("Hello dblclick")
+        }
+
+        function c(){
+            alert("Hello oncontextmenu")
+        }
+
+        function d(){
+            alert("Hello onmouseenter")
+        }
+
+        function e(){
+            alert("Hello onmouseout")
+        }
+
+        function f(){
+            alert("Hello onmousedown")
+        }
+
+        function g(){
+            alert("Hello onmouseup")
+        }
+
+// ----------- key bord events--------
+
+        function h(){
+            alert("Hello onchange")
+        }
+
+        function i(){
+            alert("Hello onkeydown")
+        }
+
+        function j(){
+            alert("Hello onkeyup")
+        }
+
+</script>
+
+
+</body>
+</html>

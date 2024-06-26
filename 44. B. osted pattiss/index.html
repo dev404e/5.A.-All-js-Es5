@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Pattiss</title>
+</head>
+<body>
+
+
+
+<script>
+
+// --------------javascript print
+
+// document.write("hello jasmin")
+
+
+// -----------variable------
+// var x=10;
+// var y=20;
+// var z=x+y;
+// document.write(z)
+
+
+// ------------object----
+
+// var a={
+//     name:'jasmin',
+//     age:'25',
+//     city:'bera'
+// }
+
+// document.write(a.city)
+
+//----- a array
+
+// var a=['dhaka','rajshahi','rangpur','pabna']
+// document.write(a)
+
+// ------------if-------------
+
+// var age=30;
+// var city='dhaka';
+
+// if(age>28 && city=='dhaka'){
+// document.write('you are adult vai')
+// }
+
+// -------------if eles------------
+
+//  var age=30;
+// var city='dhaka';
+
+// if(age>35 && city=='dhaka'){
+
+// document.write('you are adult vai')
+//  }
+
+// else{
+// document.write('you are bura vai')
+// }
+
+// --------------if else if----------------
+
+// var marks=20;
+// if(marks>=80 && marks<=100){
+// document.write('A+')
+// }
+
+// else if(marks<=80 && marks>=70){
+// document.write('A')
+// }
+
+// else if(marks<=60 && marks>=50){
+// document.write('A-')
+// }
+
+// else if(marks<=50 && marks>=40){
+// document.write('B')
+// }
+
+// else if(marks<=50 && marks>=40){
+// document.write('c')
+// }
+
+// else if(marks<=40 && marks>=33){
+// document.write('d')
+// }
+
+// else{
+// document.write('f korshis vai');
+// }
+
+// ---------------------switch case------------------
+
+// var marks=44;
+
+// switch(true){
+
+// case(marks<=100 && marks>=80):
+//   document.write('A+');
+// break;
+
+// case(marks<=80 && marks>=70):
+//   document.write('A');
+// break;
+
+// case(marks<=70 && marks>=60):
+//   document.write('A-');
+// break;
+
+// case(marks<=60 && marks>=50):
+//   document.write('B');
+// break;
+
+// case(marks<=50 && marks>=40):
+//   document.write('C');
+// break;
+
+// default:
+//     document.write('f')
+
+// }
+
+//-----------for loop-------------
+
+
+// for( var a =1; a<=10; a++){
+
+// document.write(a+"Rakib <br>")
+// }
+
+//---------------- while loop-----------
+
+// var a =1;
+// while(a<=6){
+// document.write(a+"you are adult <br>")
+// a=a+1;
+// }
+
+// ----------------do while loop---------------
+
+// var a = 1;
+// do{
+// document.write(a+"<button>Do while Loop</button> <br>")
+// a=a+1;
+
+// }
+// while(a<=6)
+
+// ---------------function------------
+
+// function hello(){
+// document.write("I love you jasmin")
+// }
+// hello()
+
+//----------function paramiter pass
+
+// function sum(a,b){
+
+// document.write(a+b +"<br>")
+
+// }
+
+// sum(230,70)
+// sum(235,70)
+// sum(280,70)
+// sum(290,70)
+// sum(230,79)
+
+//--------------function return-----------
+
+// function add(a,b){
+// return(a+b);
+// }
+// document.write(add(20,30))
+
+//------------------- object-----------
+
+// var mypc={
+// brand:"windows",
+// rem:"16gb",
+// }
+// document.write(mypc.brand)
+
+
+//------------ array---------------
+
+//  var food =['amm','jam','licu','kathal']
+
+//  document.write(food[1])
+
+//--------------- for loop over array-------
+
+// var food=['amm', 'jam','licu','kathal']
+
+// var a;
+
+// for(a=0; a<food.length;a=a+1){
+
+// document.write(food[a]+"<br>")
+
+// }
+
+//------------------ for in loop over array ------------------
+//  var food=[
+
+// 'amm',
+// 'jam',
+// 'licu',
+// 'licu',
+// 'licu',
+// 'licu',
+
+//  ];
+//  for(var item in food){
+
+// document.write(food[item],"<br>")
+
+//  }
+
+//--------- for in loop over object---------
+
+// var obj ={
+// fname:"rakib",
+// lname:"rakib",
+// age:25,
+// };
+
+// for(var key in obj){
+
+// document.write(obj[key]+"<br>")
+// }
+
+//----------- Array concat -------------
+
+// var a=['a','b','c','d','e']
+// var b=['1','2','3','4','5']
+// var c=['6','7','c','d','e']
+
+// var d= a.concat(b,c)
+
+// document.write(d)
+
+//--------------- Array filter------------
+
+//  var age=[10,20,30,40]
+
+//  var b =age.filter(checkAdult);
+
+//  function checkAdult(age){
+//     return age>18;
+//  }
+
+
+// document.write(b)
+
+// --------------------Array find----------
+
+//  var age=[10,20,30,40]
+
+//  var b =age.find(checkAdult);
+
+//  function checkAdult(age){
+//      return age>18;
+//  }
+
+//  document.write(b)
+
+//---------- array findIndex-----------
+
+// var age =[10,20,30,40];
+
+// var b =age.findIndex(checkAdult);
+
+// function checkAdult(age){
+
+// return age>=21;
+
+// }
+
+// document.write(b)
+
+// ----------for Each loop--------------
+
+// var a = ['rakib','jasmin']
+
+// a.forEach(function(value){
+
+// document.write(value+"<br>")
+
+// })
+
+//------------- Array Includes-----------
+
+// var a=['rakib','jasmin','jarif'];
+
+// var b= a.includes("jasmin");
+
+// document.write(b);
+
+//-------------Array index of---------
+
+// var a=['rakib','jasmin','jarif'];
+
+//  var b= a.indexOf("jasmin");
+
+//  document.write(b);
+
+// ----------- Array Pop----------
+
+// var a=[30,40,50,60,70,80,90,100];
+
+// a.pop()
+
+// document.write(a)
+
+//-----------Array Push-----------------
+
+// var a=[30,40,50,60,70,80,90,100];
+
+// a.push(200)
+
+// document.write(a)
+
+//----------- Array Revers-----------------
+
+// var a=[30,40,50,60,70,80,90,100];
+
+// a.reverse(500)
+
+//  document.write(a)
+
+// -------------Array sort------------
+
+//  var a = [30,32,40,55,60,300,80,800,90, 31,33,41,];
+
+//  a.sort();
+
+//  document.write(a);
+
+// ------------Array Slice-----------
+
+// var a=["Rakib", "jasmin", "jarif", "hablu" ];
+
+// var b=a.slice(0,3)
+
+// document.write(b);
+
+// ------------ Array Splice-------
+
+// var a =["rakib", "jasmin", "jarif"];
+
+// a.splice(1,0,"hasib");
+
+// document.write(a);
+
+// --------string charAt-----------------
+
+// var str="Bangladesh, indea,"
+
+// var a = str.charAt(5)
+
+// document.write(a)
+
+// -- -----------string Concat-------
+
+// var str1="bangladesh";
+
+// var str2="India";
+
+// var a= str1.concat(str2)
+
+// document.write(a)
+
+//--------- string  index of------------
+
+// var str="bangladesh"
+
+// var a= str.indexOf("s");
+
+// document.write(a)
+
+//---------- string last index of--------
+
+// var str ="bangladesh";
+
+// var a = str.lastIndexOf("a")
+
+// document.write(a)
+
+// -------------string replace---------
+
+
+// var str ="bangladesh";
+
+// var a=str.replace("bangla","india")
+
+// document.write(a)
+
+//--------- string Substring------------
+
+// var str="javascript is the great language"
+
+// var a =str.substring(0,10)
+
+// document.write(a)
+
+// -----------string Substr --------------
+
+// var str="javascript is the great language"
+
+// var a=str.substr(0,11)
+
+// document.write(a)
+
+// ------string ToUpperCase------
+
+// var str ="bangladesh is a poor Country";
+
+// var a=str.toUpperCase()
+
+// document.write(a);
+
+// ---------------string toLowerCase------
+
+// var str ="bangladesh is a poor Country";
+
+// var a =str.toLowerCase()
+
+// document.write(a);
+
+// ----------math abs--------------
+
+// var a = Math.abs(-9)
+
+// document.write(a);
+
+// ----------------math ceil-----------
+
+// var a= Math.ceil(7.6)
+// document.write(a)
+
+// --------------math object (floor)------------
+
+// var a=Math.floor(7.3);
+// document.write(a)
+
+// -----------math object (max)----------
+
+// var a= Math.max(7,3,6,9,2,12,45,78,);
+
+// document.write(a)
+
+// -----math object (min)------
+
+// var a= Math.min(7,3,6,9,2,12,45,78,);
+
+// document.write(a)
+
+
+// ----math object (random)-----------
+
+// var a=Math.random();
+
+// document.write(a)
+
+//----------math object (round)---------
+
+// var a= Math.round(7.6)
+
+// document.write(a)
+
+// --------number mathode-----------
+
+// var a='100';
+// var num =Number(a)
+// document.write(num)
+
+// -----------number Is Finite----------
+
+// var a=9;
+// var num =Number.isFinite(a)
+// document.write(num)
+
+//-------- number (isInteger)--------
+
+// var a= 8;
+// var num=Number.isInteger(a)
+// document.write(num)
+
+//----------- Date object All-----------
+
+// var now =new Date();
+
+// document.write(now.getDate()+"<br>")
+// document.write(now.getDay()+"<br>")
+// document.write(now.getHours()+"<br>")
+// document.write(now.toDateString()+"<br>")
+// document.write(now.getFullYear()+"<br>")
+
+
+
+</script>
+
+
+</body>
+</html>
